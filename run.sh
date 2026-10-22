@@ -29,13 +29,24 @@ open -a "$DIR/OrcaCast.app"
 
 # Monitor and immediately position the window on the primary screen when created
 (
-  for i in {1..240}; do
+  for i in {1..60}; do
     sleep 0.5
     STATUS=$(osascript << 'APPLESCRIPT' 2>/dev/null || echo "WAIT"
 tell application "System Events"
     if exists (application process "OrcaCast") then
         tell application process "OrcaCast"
-            if (count of windows) > 0 then
+            if exists (window "OrcaCast") then
+                set pos to position of window "OrcaCast"
+                set px to item 1 of pos
+                if px > 1440 or px < 0 then
+                    set position of window "OrcaCast" to {140, 100}
+                    set frontmost to true
+                    return "MOVED"
+                else
+                    set frontmost to true
+                    return "IN_PLACE"
+                end if
+            else if (count of windows) > 0 then
                 set pos to position of window 1
                 set px to item 1 of pos
                 if px > 1440 or px < 0 then
@@ -54,9 +65,6 @@ end tell
 APPLESCRIPT
     )
     if [ "$STATUS" = "IN_PLACE" ] || [ "$STATUS" = "MOVED" ]; then
-      # Ensure it stays settled
-      sleep 0.5
-      osascript -e 'tell application "System Events" to tell application process "OrcaCast" to set position of window 1 to {140, 100}' 2>/dev/null || true
       break
     fi
   done
