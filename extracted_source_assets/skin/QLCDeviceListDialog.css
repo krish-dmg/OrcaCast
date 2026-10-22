@@ -1,0 +1,26 @@
+QLCDeviceListDialog QLabel {
+    color: #FFFFFF;
+}
+
+QLCDeviceListDialog QGroupBox {
+    border-bottom: 1px solid #4B5154;
+}
+
+QLCDeviceListDialog QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 0 8px;
+    left: 32px;
+}
+
+QLCDeviceListDialog QLabel {
+    color: #ffffff;
+}
+
+QLCDeviceListDialog QListWidget {
+    background: transparent;
+}
+
+QLCDeviceListDialog #contentWidget {
+    border-bottom: 1px solid #4B5154;
+}

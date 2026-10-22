@@ -1,0 +1,105 @@
+QMainDialog QLabel#imageIntro {
+    image: url(':/asset/img-main.png');
+}
+
+QMainDialog #lbAppIcon {
+    image: url(':/asset/intro-logo.png');
+}
+
+QMainDialog #lbAppName {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+QMainDialog #mainInfo #lbIntro {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+QMainDialog #mainInfo QToolButton#btnHelp {
+    font-weight: bold;
+    font-size: 21px;
+    color: #ff9900;
+    qproperty-iconSize: 24px 24px;
+    qproperty-icon: url(':/asset/help.svg');
+}
+
+QMainDialog #mainInfo QToolButton#btnFAQ {
+    font-weight: bold;
+    font-size: 21px;
+    color: #ff9900;
+    qproperty-iconSize: 24px 24px;
+    qproperty-icon: url(':/asset/faq.svg');
+}
+
+QMainDialog QLabel#labelSupport {
+    font-size: 13px;
+    color: #aaaaaa;
+}
+
+QMainDialog QLabel#labelGuide {
+    font-size: 14px;
+    color: #ff9900;
+    text-decoration: underline;
+}
+
+QMainDialog #titlebar QToolButton {
+    margin: 0 6px;
+    color: #ff9900;
+}
+
+QMainDialog #titlebar QToolButton#btnGrid {
+    qproperty-icon: url(':/asset/grid.svg');
+}
+
+QMainDialog #titlebar QToolButton#btnSign {
+    qproperty-icon: url(':/asset/profile.svg');
+    max-width: 0px;
+    max-height: 0px;
+    qproperty-visible: false;
+}
+
+QMainDialog #titlebar QToolButton#btnVIP {
+    qproperty-icon: url(':/asset/buy.svg');
+    max-width: 0px;
+    max-height: 0px;
+    qproperty-visible: false;
+}
+
+QMainDialog #titlebar QToolButton#btnOption {
+    qproperty-icon: url(':/asset/options.svg');
+}
+
+QMainDialog #sectionLocalInfo QLabel {
+    font-size: 12px;
+    color: #9a9a9a;
+}
+
+QMainDialog #sectionLocalInfo #lbDescNetworkName,
+QMainDialog #sectionLocalInfo #lbDescNetworkIP,
+QMainDialog #sectionLocalInfo #lbDescNetworkWiFi {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+QMainDialog #statusbar {
+    border-top: 1px solid #4B5154;
+}
+
+QMainDialog #userStatusContent {
+    max-height: 0px;
+    qproperty-visible: false;
+}
+
+QMainDialog #userStatusContent QLabel {
+    font-size: 13px;
+    color: #9a9a9a;
+}
+QMainDialog #userStatusContent #labelExpiredStatus,
+QMainDialog #userStatusContent #labelDeviceCount {
+    color: #cccccc;
+}
+QMainDialog #userStatusContent #labelRenew {
+    color: #ff9900;
+    text-decoration: underline;
+}

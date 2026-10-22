@@ -1,0 +1,31 @@
+QPaymentFrame QLabel {
+    color: #FFFFFF;
+}
+
+QPaymentFrame #labelWarn {
+    background: rgba(200, 200, 200, 10%);
+}
+
+QPaymentFrame #labelOrderStatus {
+    font-size: 18px;
+}
+
+QPaymentFrame #labelTips {
+    font-size: 16px;
+}
+
+QPaymentFrame #labelOrderIDDesc, QPaymentFrame #labelOrderPriceDesc, QPaymentFrame #labelWarn {
+    color: #ff9900;
+}
+
+QPaymentFrame #btnBack {
+    border-radius: 6px;
+    background-color: #ff9900;
+    color: #ffffff;
+}
+QPaymentFrame #btnBack:hover {
+    background-color: #faa755;
+}
+QPaymentFrame #btnBack:pressed {
+    background-color: #f47920;
+}

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="accent4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="border4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.16)"/>
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Squircle Base -->
+  <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bg4)"/>
+  <rect x="32" y="32" width="960" height="960" rx="224" fill="none" stroke="url(#border4)" stroke-width="4"/>
+
+  <!-- Left: Stylized Diving Orca Tail Fluke in pure white -->
+  <!-- Upper lobe of fluke -->
+  <path d="M 240 380 C 320 400 400 480 430 550 C 370 530 290 530 220 570 C 230 490 220 420 240 380 Z" fill="#ffffff"/>
+  <!-- Lower lobe of fluke -->
+  <path d="M 240 720 C 320 700 400 620 430 550 C 370 570 290 570 220 530 C 230 610 220 680 240 720 Z" fill="#ffffff"/>
+  <!-- Center fluke notch connecting spine -->
+  <circle cx="430" cy="550" r="16" fill="#ffffff"/>
+
+  <!-- Horizontal Beam / Waveform Transmission toward the right screen destination -->
+  <!-- Beam line 1 -->
+  <path d="M 480 450 Q 560 410 660 430 T 820 450" fill="none" stroke="url(#accent4)" stroke-width="26" stroke-linecap="round"/>
+  <!-- Beam line 2 (center pulse) -->
+  <path d="M 460 550 H 820" fill="none" stroke="#ffffff" stroke-width="28" stroke-linecap="round"/>
+  <!-- Beam line 3 -->
+  <path d="M 480 650 Q 560 690 660 670 T 820 650" fill="none" stroke="url(#accent4)" stroke-width="26" stroke-linecap="round"/>
+
+  <!-- Target Display Edge -->
+  <path d="M 830 380 C 850 380 860 390 860 410 V 690 C 860 710 850 720 830 720" fill="none" stroke="#334155" stroke-width="20" stroke-linecap="round"/>
+</svg>

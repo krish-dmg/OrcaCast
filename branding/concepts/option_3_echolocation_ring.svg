@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0e12"/>
+      <stop offset="100%" stop-color="#030405"/>
+    </linearGradient>
+    <linearGradient id="sonar3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="border3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.14)"/>
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Squircle Base -->
+  <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bg3)"/>
+  <rect x="32" y="32" width="960" height="960" rx="224" fill="none" stroke="url(#border3)" stroke-width="4"/>
+
+  <!-- Left Half: Curving Organic Orca Body & Dorsal Silhouette -->
+  <!-- Outer Body Arc -->
+  <path d="M 512 200 C 340 200 200 340 200 512 C 200 684 340 824 512 824 C 540 824 550 800 530 780 C 420 740 330 630 330 512 C 330 390 410 290 520 240 C 540 230 535 200 512 200 Z" fill="#ffffff"/>
+
+  <!-- Iconic Dorsal Fin Silhouette rising within the loop -->
+  <path d="M 430 520 C 430 420 490 320 540 280 C 530 360 480 460 460 520 Z" fill="#ffffff"/>
+
+  <!-- Right Half: Concentric Echo/Cast Rings (Sonar Transmission) -->
+  <path d="M 512 360 A 152 152 0 0 1 512 664" fill="none" stroke="url(#sonar3)" stroke-width="30" stroke-linecap="round"/>
+  <path d="M 512 280 A 232 232 0 0 1 512 744" fill="none" stroke="url(#sonar3)" stroke-width="30" stroke-linecap="round" stroke-opacity="0.8"/>
+  <path d="M 512 200 A 312 312 0 0 1 512 824" fill="none" stroke="url(#sonar3)" stroke-width="30" stroke-linecap="round" stroke-opacity="0.5"/>
+
+  <!-- Center Core Transmission Point -->
+  <circle cx="512" cy="512" r="28" fill="#38bdf8"/>
+  <circle cx="512" cy="512" r="12" fill="#ffffff"/>
+</svg>

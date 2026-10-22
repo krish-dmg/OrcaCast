@@ -1,0 +1,38 @@
+QSigninFrame #btnVerifyCode {
+    border-radius: 0;
+}
+
+QSigninFrame #btnSignSwitch {
+    text-decoration: underline;
+    color: #3CA4FF;
+}
+
+QSigninFrame #btnSignIn, QSigninFrame #btnVerifyCode {
+    background-color: #ff9900;
+    color: #ffffff;
+}
+QSigninFrame #btnSignIn:hover, QSigninFrame #btnVerifyCode:hover {
+    background-color: #faa755;
+}
+QSigninFrame #btnSignIn:pressed, QSigninFrame #btnVerifyCode:pressed {
+    background-color: #f47920;
+}
+
+QSigninFrame #btnCancel {
+    background: none;
+    border-width: 1px;
+    color: #ff9900;
+}
+QSigninFrame #btnCancel:hover {
+    border-color: #faa755;
+    color: #faa755;
+}
+QSigninFrame #btnCancel:pressed {
+    border-color: #f47920;
+    color: #f47920;
+}
+
+QSigninFrame #lbBtnForgot {
+    color: #ff9900;
+    text-decoration: underline;
+}

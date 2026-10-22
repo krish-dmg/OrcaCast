@@ -1,0 +1,33 @@
+QModifyDialog #labelModifyPass {
+    font-size: 18px;
+    color: #ff9900;
+}
+
+QModifyDialog #btnSendCode {
+    border-radius: 0;
+}
+
+QModifyDialog #btnModify, QModifyDialog #btnSendCode {
+    background-color: #ff9900;
+    color: #ffffff;
+}
+QModifyDialog #btnModify:hover, QModifyDialog #btnSendCode:hover {
+    background-color: #faa755;
+}
+QModifyDialog #btnModify:pressed, QModifyDialog #btnSendCode:pressed {
+    background-color: #f47920;
+}
+
+QModifyDialog #btnCancel {
+    background: none;
+    border-width: 1px;
+    color: #ff9900;
+}
+QModifyDialog #btnCancel:hover {
+    border-color: #faa755;
+    color: #faa755;
+}
+QModifyDialog #btnCancel:pressed {
+    border-color: #f47920;
+    color: #f47920;
+}

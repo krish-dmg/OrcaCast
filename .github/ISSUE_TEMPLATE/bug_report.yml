@@ -1,0 +1,50 @@
+name: Bug Report
+description: File a bug report or issue with OrcaCast
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: environment
+    attributes:
+      label: System Environment
+      description: macOS version and hardware (e.g. macOS 14 Sonoma, Apple Silicon M2)
+      placeholder: e.g. macOS Sonoma 14.5 (Apple M1)
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Target Device & Connection
+      description: What device are you mirroring or casting?
+      placeholder: e.g. iPhone 15 Pro iOS 17.5 (Wired USB-C) / Pixel 8 Android 14 (Wi-Fi)
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the problem is.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Detailed steps to reproduce the behavior.
+      placeholder: |
+        1. Connect device via USB
+        2. Run ./run.sh
+        3. Click 'Mirror Screen'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+    validations:
+      required: true

@@ -1,0 +1,92 @@
+QHIDMapperEditor,
+QHIDMapperEditor #listWidget {
+    background: transparent;
+}
+
+QHIDMapperEditor #content {
+    background: rgba(50, 50, 50, 80%);
+}
+
+QHIDMapperEditor #titlebar #lbKeyboard {
+    image: url(':/keymap/ic_keyboard.svg');
+}
+
+QHIDMapperEditor #titlebar #btnClose {
+    qproperty-icon: url(':/asset/icon-close.svg');
+}
+
+QHIDMapperEditor #titlebar #btnCollapse {
+    image: url(':/keymap/collapse-up.svg');
+}
+QHIDMapperEditor #titlebar #btnCollapse:checked {
+    image: url(':/keymap/collapse-down.svg');
+}
+
+QHIDMapperEditor #infoWidget #btnSave {
+    qproperty-icon: url(':/keymap/icon_save.svg');
+}
+
+QHIDMapperEditor #infoWidget #btnRestore {
+    qproperty-icon: url(':/keymap/icon_reload.svg');
+}
+
+QHIDMapperEditor #infoWidget #btnRemove {
+    qproperty-icon: url(':/keymap/icon_delete.svg');
+}
+
+QHIDMapperEditor #toolbarHID #btnOnOff {
+    image: url(':/keymap/ic_switch-off.svg');
+}
+QHIDMapperEditor #toolbarHID #btnOnOff:checked {
+    image: url(':/keymap/ic_switch-on.svg');
+}
+
+QHIDMapperEditor #toolbarHID #btnEdit {
+    image: url(':/keymap/icon_edit.svg');
+}
+QHIDMapperEditor #toolbarHID #btnEdit:checked {
+    image: url(':/keymap/icon_edit_checked.svg');
+}
+
+QHIDMapperEditor #toolbarHID #btnOption {
+    image: url(':/keymap/icon_option.svg');
+}
+QHIDMapperEditor #toolbarHID #btnOption:checked {
+    image: url(':/keymap/icon_option_checked.svg');
+}
+
+QHIDMapperEditor #toolbarHID #btnNew {
+    qproperty-icon: url(':/keymap/icon_clone.svg');
+}
+
+QHIDMapperEditor #toolbarHID #btnClose {
+    qproperty-icon: url(':/asset/icon-close.svg');
+}
+
+QHIDMapperEditor #widgetKeyOpacity #lbKeyOpacityVal,
+QHIDMapperEditor #widgetSensitive #lbSensitiveVal  {
+    font-weight: bold;
+}
+
+QHIDMapperEditor #widgetShootingMode #lbDescShootingMode {
+    border-radius: 4px;
+    border: 1px solid #ff9900;
+    color: #ff9900;
+    font-weight: bold;
+}
+QHIDMapperEditor #widgetShootingMode #lbDescShootingMode:focus {
+    border-color: rgb(255, 255, 0);
+    color: rgb(255, 255, 0);
+}
+
+QHIDMapperEditor #widgetDefaultProfiles QToolButton {
+    border-radius: 4px;
+    border: 1px solid #ff9900;
+    color: #ff9900;
+}
+QHIDMapperEditor #widgetDefaultProfiles QToolButton:hover {
+    color: #faa755;
+}
+QHIDMapperEditor #widgetDefaultProfiles QToolButton:pressed {
+    color: #f47920;
+}

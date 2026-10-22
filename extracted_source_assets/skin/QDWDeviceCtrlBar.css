@@ -1,0 +1,88 @@
+QDWDeviceCtrlBar #contentWidget {
+    background: rgba(0, 0, 0, 70%);
+}
+
+QDWDeviceCtrlBar #btnShowHide {
+    image: url(':/asset/menu-fold.svg');
+}
+QDWDeviceCtrlBar #btnShowHide:checked {
+    image: url(':/asset/menu-unfold.svg');
+}
+
+QDWDeviceCtrlBar #grpRecord #btnCapture {
+    qproperty-icon: url(':/asset/capture.svg');
+}
+
+QDWDeviceCtrlBar #grpRecord #btnRotate {
+    qproperty-icon: url(':/asset/rotate.svg');
+}
+
+QDWDeviceCtrlBar #grpRecord #labelRecord {
+    font-size: 12px;
+}
+
+QDWDeviceCtrlBar #grpRecord #btnTransfer {
+    image: url(':/asset/file-transfer.svg');
+}
+QDWDeviceCtrlBar #grpRecord #btnTransfer:pressed {
+    image: url(':/asset/file-transfer-checked.svg');
+}
+
+QDWDeviceCtrlBar #grpRecord #btnRecord {
+    image: url(':/asset/record.svg');
+}
+QDWDeviceCtrlBar #grpRecord #btnRecord:checked {
+    image: url(':/asset/recording.svg');
+}
+
+QDWDeviceCtrlBar #btnFPS {
+    font-size: 10px;
+    color: #8f8f8f;
+}
+QDWDeviceCtrlBar #btnFPS:checked {
+    color: #ff9900;
+}
+
+QDWDeviceCtrlBar #grpRecord #btnMicrophone {
+    image: url(':/asset/microphone-off.svg');
+}
+QDWDeviceCtrlBar #grpRecord #btnMicrophone:checked {
+    image: url(':/asset/microphone-on.svg');
+}
+
+QDWDeviceCtrlBar #btnVolume {
+    image: url(':/asset/volume-off.svg');
+}
+QDWDeviceCtrlBar #btnVolume:checked {
+    image: url(':/asset/volume-on.svg');
+}
+
+QDWDeviceCtrlBar #grpRecord #btnVCam {
+    image: url(':/asset/webcam-off.svg');
+}
+QDWDeviceCtrlBar #grpRecord #btnVCam:checked {
+    image: url(':/asset/webcam-on.svg');
+}
+
+QDWDeviceCtrlBar #btnTransform {
+    qproperty-icon: url(':/asset/transformation-baritem.svg');
+}
+
+DWVolumeCtrlBar > #contentWidget {
+  border-radius: 4px;
+  background-color: rgb(61, 65, 80);
+}
+DWVolumeCtrlBar > #contentWidget QToolButton {
+  background-color: transparent;
+  border: none;
+}
+DWVolumeCtrlBar > #contentWidget #lbVolume {
+  color: #fff;
+  font-size: 14px;
+}
+DWVolumeCtrlBar > #contentWidget #btnMute {
+  image: url(":/asset/volume-off.svg");
+}
+DWVolumeCtrlBar > #contentWidget #btnMute:checked {
+  image: url(":/asset/volume-on.svg");
+}

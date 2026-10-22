@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#020408"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+    <linearGradient id="border2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.14)"/>
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Squircle Base -->
+  <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bg2)"/>
+  <rect x="32" y="32" width="960" height="960" rx="224" fill="none" stroke="url(#border2)" stroke-width="4"/>
+
+  <!-- Minimal Display Monolith Outline -->
+  <rect x="220" y="240" width="584" height="420" rx="44" fill="none" stroke="#1e293b" stroke-width="22"/>
+
+  <!-- Monitor Stand -->
+  <path d="M 440 660 L 420 730 L 604 730 L 584 660" fill="#1e293b"/>
+  <rect x="372" y="730" width="280" height="16" rx="8" fill="#334155"/>
+
+  <!-- Bold Orca Eye-Patch Glyph inside screen acting as dynamic beam -->
+  <!-- Crisp white eye patch -->
+  <path d="M 310 440 C 310 380 390 350 490 380 C 530 392 540 430 510 460 C 430 520 310 510 310 440 Z" fill="#ffffff"/>
+
+  <!-- Pure Minimal Cast Rings emanating from screen corner -->
+  <path d="M 600 480 A 70 70 0 0 0 670 550" fill="none" stroke="url(#cyanGrad)" stroke-width="24" stroke-linecap="round"/>
+  <path d="M 600 410 A 140 140 0 0 0 740 550" fill="none" stroke="url(#cyanGrad)" stroke-width="24" stroke-linecap="round" stroke-opacity="0.8"/>
+  <path d="M 600 340 A 210 210 0 0 0 810 550" fill="none" stroke="url(#cyanGrad)" stroke-width="24" stroke-linecap="round" stroke-opacity="0.5"/>
+
+  <!-- Transmitter Core Dot -->
+  <circle cx="600" cy="550" r="14" fill="url(#cyanGrad)"/>
+</svg>

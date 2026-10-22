@@ -1,0 +1,20 @@
+QSignSNSFrame QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 0 8px;
+}
+
+QSignSNSFrame QToolButton#btnSignQQ {
+    qproperty-icon: url(':/asset/icon-qq.svg');
+    qproperty-iconSize: 64px;
+}
+
+QSignSNSFrame QToolButton#btnSignWeChat {
+    qproperty-icon: url(':/asset/icon-wechat.svg');
+    qproperty-iconSize: 64px;
+}
+
+QSignSNSFrame QToolButton#btnSignYoutube {
+    qproperty-icon: url(':/asset/icon-youtube.svg');
+    qproperty-iconSize: 64px;
+}

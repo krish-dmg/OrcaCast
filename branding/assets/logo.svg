@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Minimal 2 O Monogram Vector Representation -->
+  <rect width="1024" height="1024" rx="224" fill="#000000"/>
+  <!-- Pure Monogram Ring 'O' -->
+  <circle cx="512" cy="512" r="330" fill="none" stroke="#ffffff" stroke-width="48"/>
+  <!-- Orca Fin Arch Geometry rising inside 'O' -->
+  <path d="M 370 700 C 440 700 500 630 535 480 C 555 380 565 270 550 230 C 530 320 460 480 380 590 C 355 625 345 670 370 700 Z" fill="#ffffff"/>
+  <!-- Signature White Eye-Patch Monolith -->
+  <ellipse cx="610" cy="410" rx="65" ry="32" transform="rotate(-30 610 410)" fill="#ffffff"/>
+</svg>

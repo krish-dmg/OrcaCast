@@ -1,0 +1,83 @@
+QOptionsDialog QLabel {
+    color: #FFFFFF;
+}
+
+QOptionsDialog QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 0 8px;
+    left: 32px;
+}
+
+QOptionsDialog QComboBox {
+    min-width: 180px;
+}
+
+QOptionsDialog QLabel {
+    color: #ffffff;
+}
+
+QOptionsDialog #lbTips {
+    color: #ffff00;
+}
+
+QOptionsDialog #optionBar {
+    border-right: 1px solid #4B5154;
+}
+
+QOptionsDialog #optionBar QToolButton:checked {
+    color: #ff9900;
+    border-radius: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+QOptionsDialog #optionBar #lbBtnRestore {
+    text-decoration: underline;
+    background: none;
+    color: #bbbbbb;
+}
+
+QOptionsDialog #optionBar #lbVersion {
+    font-size: 12px;
+}
+
+QOptionsDialog #optionPanel QToolButton {
+    border-width: 1px;
+    color: #ff9900;
+}
+QOptionsDialog #optionPanel QToolButton:hover {
+    color: #faa755;
+}
+QOptionsDialog #optionPanel QToolButton:pressed {
+    color: #f47920;
+}
+
+QOptionsDialog #optionActionBar {
+    border-top: 1px solid #4B5154;
+    font-size: 16px;
+}
+
+QOptionsDialog #optionActionBar #btnSave {
+    background-color: #ff9900;
+    color: #ffffff;
+}
+QOptionsDialog #optionActionBar #btnSave:hover {
+    background-color: #faa755;
+}
+QOptionsDialog #optionActionBar #btnSave:pressed {
+    background-color: #f47920;
+}
+
+QOptionsDialog #optionActionBar #btnCancel {
+    border-width: 1px;
+    color: #ff9900;
+}
+QOptionsDialog #optionActionBar #btnCancel:hover {
+    border-color: #faa755;
+    color: #faa755;
+}
+QOptionsDialog #optionActionBar #btnCancel:pressed {
+    border-color: #f47920;
+    color: #f47920;
+}

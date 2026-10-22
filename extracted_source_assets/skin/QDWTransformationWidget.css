@@ -1,0 +1,23 @@
+QDWTransformationWidget #btnConfirm {
+    background-color: #ff9900;
+    color: #ffffff;
+}
+QDWTransformationWidget #btnConfirm:hover {
+    background-color: #faa755;
+}
+QDWTransformationWidget #btnConfirm:pressed {
+    background-color: #f47920;
+}
+
+QDWTransformationWidget #btnCancel {
+    border-width: 1px;
+    color: #ff9900;
+}
+QDWTransformationWidget #btnCancel:hover {
+    border-color: #faa755;
+    color: #faa755;
+}
+QDWTransformationWidget #btnCancel:pressed {
+    border-color: #f47920;
+    color: #f47920;
+}

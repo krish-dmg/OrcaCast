@@ -1,0 +1,14 @@
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# User / Local Environment
+*.local
+*.log
+*.tmp
+.idea/
+.vscode/

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0c"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="oceanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="border5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.18)"/>
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.03)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Squircle Base -->
+  <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bg5)"/>
+  <rect x="32" y="32" width="960" height="960" rx="224" fill="none" stroke="url(#border5)" stroke-width="4"/>
+
+  <!-- Precision Minimal 'O' (Orca Monogram Outer Ring) -->
+  <circle cx="512" cy="512" r="320" fill="none" stroke="#27272a" stroke-width="28"/>
+
+  <!-- Active Broadcast Upper-Right Arc of 'O' in Electric Ocean Cyan -->
+  <path d="M 512 192 A 320 320 0 0 1 832 512" fill="none" stroke="url(#oceanGrad)" stroke-width="36" stroke-linecap="round"/>
+
+  <!-- Central Sharp Dorsal Fin Monolith (Minimal Geometry) -->
+  <path d="M 380 680 C 440 680 490 620 520 490 C 540 400 550 300 535 270 C 520 350 460 480 390 580 C 370 610 360 650 380 680 Z" fill="#ffffff"/>
+
+  <!-- Signature Eye-Patch Pill Accent (Minimalist White Pill) -->
+  <rect x="580" y="380" width="110" height="42" rx="21" transform="rotate(-25 580 380)" fill="#ffffff"/>
+
+  <!-- Subtle Wireless Signal Dots -->
+  <circle cx="680" cy="270" r="16" fill="url(#oceanGrad)"/>
+</svg>

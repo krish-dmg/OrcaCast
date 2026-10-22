@@ -1,0 +1,14 @@
+QGuideWidget QLabel {
+    font-size: 16px;
+    line-height:32px;
+    color: #eeeeee;
+}
+
+QGuideWidget #lbSection1Title,
+QGuideWidget #lbSection2Title,
+QGuideWidget #lbSection3Title,
+QGuideWidget #lbSection4Title {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+}

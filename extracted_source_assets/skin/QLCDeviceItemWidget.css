@@ -1,0 +1,20 @@
+QLCDeviceItemWidget #contentWidget {
+    border-bottom: 1px solid #4B5154;
+}
+
+QLCDeviceItemWidget #contentWidget #lbName,
+QLCDeviceItemWidget #contentWidget #lbOSVersion,
+QLCDeviceItemWidget #contentWidget #lbUUID {
+    color: #999999
+}
+
+QLCDeviceItemWidget #contentWidget QToolButton {
+    background-color: #ff9900;
+    color: #ffffff;
+}
+QLCDeviceItemWidget #contentWidget QToolButton:hover {
+    background-color: #faa755;
+}
+QLCDeviceItemWidget #contentWidget QToolButton:pressed {
+    background-color: #f47920;
+}

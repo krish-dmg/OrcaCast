@@ -1,0 +1,23 @@
+QSignDialog #barSign QToolButton {
+    font-size: 18px;
+    color: #ff9900;
+    border-radius: 0;
+    text-align: center;
+}
+
+QSignDialog #barSign QToolButton:checked {
+    color: #ff9900;
+    border-bottom: 1px solid #ff9900;
+}
+
+QSignDialog #barSign #barBtnSignIn {
+    qproperty-icon: url(':/asset/user-signin.svg');
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+QSignDialog #barSign #barBtnSignUp {
+    qproperty-icon: url(':/asset/user-signup.svg');
+    padding-left: 12px;
+    padding-right: 12px;
+}

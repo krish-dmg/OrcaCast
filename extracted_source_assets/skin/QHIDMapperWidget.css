@@ -1,0 +1,17 @@
+QHIDMapperWidget,
+QHIDMapperWidget #mapWidget {
+    background: transparent;
+}
+
+QHIDMapperItemWidget,
+QHIDMapperItemWidget #content {
+    background-color: transparent;
+}
+
+QHIDMapperItemWidget #content #btnDelete {
+    qproperty-icon: url(':/keymap/btn_close_normal.png');
+}
+
+QHIDMapperItemWidget #content #btnResize {
+    image: url(':/keymap/btn_drag_normal.png');
+}

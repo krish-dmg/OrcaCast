@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg_nord" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="nord_cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bg_nord)"/>
+
+  <!-- Thick Continuous Monoline Path forming Orca Dorsal Fin that loops into Broadcasting Waves -->
+  <!-- Main Continuous Fin Contour -->
+  <path d="M 280 720 C 400 720 460 620 500 460 C 530 340 540 200 520 160 C 500 280 420 460 320 580 C 270 640 240 720 280 720 Z" fill="none" stroke="#ffffff" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Iconic Pure Minimalist Eye-Patch (Solid Matte White) -->
+  <path d="M 460 520 C 510 490 560 510 575 550 C 585 580 560 610 520 625 C 475 640 435 610 430 570 C 430 540 445 530 460 520 Z" fill="#ffffff"/>
+
+  <!-- Ultra-clean Radiating Cast Arcs seamlessly aligned with fin peak -->
+  <path d="M 590 280 A 140 140 0 0 1 690 420" fill="none" stroke="url(#nord_cyan)" stroke-width="32" stroke-linecap="round"/>
+  <path d="M 660 210 A 240 240 0 0 1 790 450" fill="none" stroke="url(#nord_cyan)" stroke-width="32" stroke-linecap="round" stroke-opacity="0.75"/>
+  <path d="M 730 140 A 340 340 0 0 1 890 480" fill="none" stroke="url(#nord_cyan)" stroke-width="32" stroke-linecap="round" stroke-opacity="0.45"/>
+
+  <!-- Precision Anchor Dot -->
+  <circle cx="520" cy="160" r="18" fill="url(#nord_cyan)"/>
+</svg>

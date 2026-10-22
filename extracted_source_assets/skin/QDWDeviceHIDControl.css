@@ -1,0 +1,53 @@
+QDWDeviceHIDControl #contentWidget {
+    background: rgba(0, 0, 0, 70%);
+}
+
+QDWDeviceHIDControl #btnCoordinates {
+    image: url(':/asset/coordinates-1.svg');
+}
+QDWDeviceHIDControl #btnCoordinates:checked {
+    image: url(':/asset/coordinates-2.svg');
+}
+
+QDWDeviceHIDControl #btnLockDir {
+    image: url(':/asset/lockdir.svg');
+}
+QDWDeviceHIDControl #btnLockDir:checked {
+    image: url(':/asset/lockdir-on.svg');
+}
+
+
+QDWDeviceHIDControl #btnMouseMode {
+    image: url(':/asset/cursor-pointer.svg');
+}
+QDWDeviceHIDControl #btnMouseMode:checked {
+    image: url(':/asset/cursor-arrow.svg');
+}
+
+QDWDeviceHIDControl #btnBack {
+    qproperty-icon: url(':/asset/back.svg');
+}
+
+QDWDeviceHIDControl #btnHome {
+    qproperty-icon: url(':/asset/home.svg');
+}
+
+QDWDeviceHIDControl #btnAppSwitch {
+    qproperty-icon: url(':/asset/tasks.svg');
+}
+
+QDWDeviceHIDControl #btnNotify {
+    qproperty-icon: url(':/asset/msg.svg');
+}
+
+QDWDeviceHIDControl #btnMute {
+    qproperty-icon: url(':/asset/mute.svg');
+}
+
+QDWDeviceHIDControl #btnPower {
+    qproperty-icon: url(':/asset/power.svg');
+}
+
+QDWDeviceHIDControl #btnKBMapper {
+    qproperty-icon: url(':/asset/kbmapper.svg');
+}

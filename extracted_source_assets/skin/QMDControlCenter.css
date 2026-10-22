@@ -1,0 +1,52 @@
+QMDItemWidget {
+    background: #666666;
+}
+
+QMDItemWidget #itemInfo {
+    background: rgb(50, 50, 50);
+}
+
+QMDItemWidget #itemInfo #labelInfo,
+QMDItemWidget #itemInfo #labelIndex {
+    color: #ffffff;
+}
+
+QMDItemWidget #itemInfo #btnClose {
+    border-radius: 12px;
+    qproperty-icon: url(':/asset/icon-close.svg');
+    qproperty-iconSize: 20px;
+}
+
+QMDItemWidget #itemInfo #btnKB {
+    image: url(':/asset/keyboard-off.svg');
+}
+QMDItemWidget #itemInfo #btnKB:checked {
+    image: url(':/asset/keyboard.svg');
+}
+
+QMDItemWidget #itemInfo #btnMouse {
+    image: url(':/asset/mouse-off.svg');
+}
+QMDItemWidget #itemInfo #btnMouse:checked {
+    image: url(':/asset/mouse.svg');
+}
+
+QMDControlCenter #ctrlbar {
+    border-bottom: 1px solid #4B5154;
+}
+
+QMDControlCenter #ctrlbar #btnMin {
+    qproperty-icon: url(':/asset/icon-minimize.svg');
+}
+
+QMDControlCenter #ctrlbar #btnClose {
+    qproperty-icon: url(':/asset/icon-close.svg');
+}
+
+QMDControlCenter #pageCtrl #btnPrev {
+    qproperty-icon: url(':/asset/prev.svg');
+}
+
+QMDControlCenter #pageCtrl #btnNext {
+    qproperty-icon: url(':/asset/next.svg');
+}

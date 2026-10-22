@@ -1,0 +1,33 @@
+QSignupFrame #btnSendCode {
+    border-radius: 0;
+}
+
+QSignupFrame #btnSignUp, QSignupFrame #btnSendCode {
+    background-color: #ff9900;
+    color: #ffffff;
+}
+QSignupFrame #btnSignUp:hover, QSignupFrame #btnSendCode:hover {
+    background-color: #faa755;
+}
+QSignupFrame #btnSignUp:pressed, QSignupFrame #btnSendCode:pressed {
+    background-color: #f47920;
+}
+
+QSignupFrame #btnTerm {
+    text-decoration: underline;
+    color: #3CA4FF;
+}
+
+QSignupFrame #btnCancel {
+    background: none;
+    border-width: 1px;
+    color: #ff9900;
+}
+QSignupFrame #btnCancel:hover {
+    border-color: #faa755;
+    color: #faa755;
+}
+QSignupFrame #btnCancel:pressed {
+    border-color: #f47920;
+    color: #f47920;
+}

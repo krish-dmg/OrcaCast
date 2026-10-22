@@ -1,0 +1,12 @@
+QAirplayCtrlTipsWidget {
+    background-color: rgba(75, 81, 84, 90%);
+}
+
+QAirplayCtrlTipsWidget QLabel {
+    color: #ffffff;
+}
+
+QAirplayCtrlTipsWidget QLabel#labelStep1Device {
+    color: #ff9900;
+    font-size: 20px;
+}

@@ -1,0 +1,30 @@
+QUserInfoPanel #content {
+    background-color: #4B5154;
+}
+
+QUserInfoPanel QLabel {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+QUserInfoPanel QELabel {
+    font-size: 14px;
+    color: #ff9900;
+    text-decoration: underline;
+}
+
+QUserInfoPanel #iconAvatar {
+    image: url(':/asset/profile.svg');
+}
+
+QUserInfoPanel #iconService {
+    image: url(':/asset/vip.svg');
+}
+
+QUserInfoPanel #iconExpired {
+    image: url(':/asset/datetime.svg');
+}
+
+QUserInfoPanel #iconDevice {
+    image: url(':/asset/service.svg');
+}

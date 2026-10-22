@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg_dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121316"/>
+      <stop offset="100%" stop-color="#08080a"/>
+    </linearGradient>
+    <linearGradient id="cyan_beam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="border_subtle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.12)"/>
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- macOS App Squircle -->
+  <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bg_dark)"/>
+  <rect x="32" y="32" width="960" height="960" rx="224" fill="none" stroke="url(#border_subtle)" stroke-width="4"/>
+
+  <!-- Minimal Duck Silhouette in Pure Matte White -->
+  <!-- Duck Head, Neck, and Chest Flowing into Body -->
+  <path d="M 280 430 C 280 340 340 280 430 280 C 475 280 515 298 545 328 L 650 328 C 665 328 672 346 660 356 L 570 420 C 585 450 590 485 580 525 C 570 565 540 600 495 620 C 410 655 310 610 285 520 C 282 505 280 490 280 475 Z" fill="#ffffff"/>
+
+  <!-- Distinctive Orca Eye Patch (Smooth Dark Ellipse with Pure White Center Highlight) -->
+  <path d="M 405 385 C 435 370 470 380 480 405 C 490 430 470 455 440 470 C 410 485 375 475 365 450 C 355 425 375 400 405 385 Z" fill="#121316"/>
+  <ellipse cx="430" cy="425" rx="14" ry="18" fill="#ffffff"/>
+
+  <!-- Casting Beams Radiating From Beak Tip -->
+  <path d="M 690 320 A 70 70 0 0 1 735 385" fill="none" stroke="url(#cyan_beam)" stroke-width="24" stroke-linecap="round"/>
+  <path d="M 750 280 A 150 150 0 0 1 820 420" fill="none" stroke="url(#cyan_beam)" stroke-width="24" stroke-linecap="round" stroke-opacity="0.8"/>
+  <path d="M 810 240 A 230 230 0 0 1 905 455" fill="none" stroke="url(#cyan_beam)" stroke-width="24" stroke-linecap="round" stroke-opacity="0.45"/>
+
+  <!-- Small Minimalist Duck Tail Accent Behind Body -->
+  <path d="M 290 535 C 250 520 220 540 205 570 C 235 575 270 565 295 550 Z" fill="#ffffff" fill-opacity="0.9"/>
+</svg>

@@ -1,0 +1,82 @@
+QPricingFrame #labelBanner {
+    image: url(':/asset/vip-banner.png');
+}
+
+QPricingFrame QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 0 8px;
+}
+
+QPricingFrame QLabel {
+    color: #FFFFFF;
+}
+
+QPricingFrame #lbVIPExperience {
+    color: #f47920;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QPricingFrame #lbMore {
+    background-color: #f47920;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+QPricingFrame #gridWidget,
+QPricingFrame #gridWidget #gridLine,
+QPricingFrame #gridWidget #gridLine2,
+QPricingFrame #gridWidget #gridLine3 {
+    color: #cccccc;
+    border: 1px solid #cccccc;
+}
+QPricingFrame #gridWidget #lbWaterMarkDesc,
+QPricingFrame #gridWidget #lbRecDurationDesc,
+QPricingFrame #gridWidget #lbVCamDesc,
+QPricingFrame #gridWidget #lbMaxDeviceDesc {
+    color: #eeee00;
+}
+
+QPricingFrame #labelVIPDiscount {
+    color: #f00;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPricingFrame #labelDescDiscount {
+    color: #ff9900;
+}
+
+QPricingFrame #btnVerify {
+    background-color: #ff9900;
+    color: #ffffff;
+}
+QPricingFrame #btnVerify:hover {
+    background-color: #faa755;
+}
+QPricingFrame #btnVerify:pressed {
+    background-color: #f47920;
+}
+
+QPricingFrame #groupPayment QToolButton {
+    background: #FFFFFF;
+    border-radius: 6px;
+    qproperty-iconSize: 120px 32px;
+}
+
+QPricingFrame #groupPayment QToolButton#btnWeChatPay {
+    qproperty-icon: url(':/asset/wechat_pay.svg');
+}
+QPricingFrame #groupPayment QToolButton#btnAliPay {
+    qproperty-icon: url(':/asset/alipay.png');
+}
+QPricingFrame #groupPayment QToolButton#btnPayPal {
+    qproperty-icon: url(':/asset/paypal.svg');
+}
+QPricingFrame #groupPayment QToolButton#btnFastSpring {
+    qproperty-icon: url(':/asset/fastspring.png');
+}
+QPricingFrame #groupPayment QToolButton#btnStripe {
+    qproperty-icon: url(':/asset/stripe.png');
+}

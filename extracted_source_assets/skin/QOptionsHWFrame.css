@@ -1,0 +1,23 @@
+QOptionsHWFrame #lbGraphicsName,
+QOptionsHWFrame #lbGraphicsMemory,
+QOptionsHWFrame #lbGraphicsResolution,
+QOptionsHWFrame #lbGraphicsName_2,
+QOptionsHWFrame #lbGraphicsMemory_2,
+QOptionsHWFrame #lbGraphicsResolution_2,
+QOptionsHWFrame #lbNetworkName,
+QOptionsHWFrame #lbNetworkIP,
+QOptionsHWFrame #lbNetworkMac,
+QOptionsHWFrame #lbProcessorName,
+QOptionsHWFrame #lbProcessorCores,
+QOptionsHWFrame #lbProcessorSpeed,
+QOptionsHWFrame #lbMem,
+QOptionsHWFrame #lbOSInfo,
+QOptionsHWFrame #lbDWID,
+QOptionsHWFrame #lbStorageSpace {
+    color: #999999;
+}
+
+QOptionsHWFrame #edExtraInfo {
+    border: 1px solid #4B5154;
+    color: #cccccc;
+}

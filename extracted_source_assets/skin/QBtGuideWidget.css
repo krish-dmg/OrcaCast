@@ -1,0 +1,26 @@
+QBtGuideWidget #contentWidget {
+    background: rgba(0, 0, 0, 60%);
+}
+
+QBtGuideWidget #contentWidget QLabel {
+    font-size: 14px;
+    line-height:20px;
+    color: #eeeeee;
+}
+
+QBtGuideWidget #contentWidget #btnClose {
+    background-color: #ff9900;
+    color: #ffffff;
+}
+QBtGuideWidget #contentWidget #btnClose:hover {
+    background-color: #faa755;
+}
+QBtGuideWidget #contentWidget #btnClose:pressed {
+    background-color: #f47920;
+}
+
+QBtGuideWidget #contentWidget #connWidget QLabel {
+    font-size: 16px;
+    line-height:22px;
+    color: #ffffff;
+}

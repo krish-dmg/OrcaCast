@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg_black" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141416"/>
+      <stop offset="100%" stop-color="#050506"/>
+    </linearGradient>
+    <linearGradient id="orange_cast" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="cyan_cast" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bg_black)"/>
+
+  <!-- Left Side: Clean Geometric Duck Profile in Crisp White -->
+  <!-- Duck Head & Chest -->
+  <path d="M 260 520 C 260 410 320 340 410 340 C 460 340 500 365 520 400 L 610 400 C 625 400 630 415 620 425 L 540 470 C 545 490 545 510 535 540 C 510 610 430 650 350 630 C 290 615 260 570 260 520 Z" fill="#ffffff"/>
+
+  <!-- The Duck Bill in Vibrant Warm Mandarin -->
+  <path d="M 505 390 L 630 390 C 648 390 655 408 640 420 L 535 465 Z" fill="url(#orange_cast)"/>
+
+  <!-- Duck Eye -->
+  <circle cx="430" cy="420" r="14" fill="#141416"/>
+
+  <!-- Right Side: Clean Orca Dorsal Fin nested in counter-flow -->
+  <path d="M 550 700 C 620 700 660 630 685 520 C 700 450 710 330 695 300 C 685 370 635 480 570 560 C 540 595 530 650 550 700 Z" fill="#ffffff" fill-opacity="0.95"/>
+
+  <!-- Iconic Pure White Saddle Patch / Eye-Patch Accent -->
+  <ellipse cx="600" cy="610" rx="42" ry="22" transform="rotate(-30 600 610)" fill="#38bdf8"/>
+
+  <!-- Modern Dual Wireless Cast Wave Nodes -->
+  <path d="M 720 380 A 100 100 0 0 1 790 480" fill="none" stroke="url(#cyan_cast)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M 780 320 A 180 180 0 0 1 870 500" fill="none" stroke="url(#cyan_cast)" stroke-width="22" stroke-linecap="round" stroke-opacity="0.7"/>
+</svg>

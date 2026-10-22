@@ -1,0 +1,27 @@
+QDWTransferWidget #btnSelect {
+    background-color: #ff9900;
+    color: #ffffff;
+}
+QDWTransferWidget #btnSelect:hover {
+    background-color: #faa755;
+}
+QDWTransferWidget #btnSelect:pressed {
+    background-color: #f47920;
+}
+QDWTransferWidget #btnSelect:disabled {
+    background-color: #666666;
+    color: #999999;
+}
+
+QDWTransferWidget #btnCancel {
+    border-width: 1px;
+    color: #ff9900;
+}
+QDWTransferWidget #btnCancel:hover {
+    border-color: #faa755;
+    color: #faa755;
+}
+QDWTransferWidget #btnCancel:pressed {
+    border-color: #f47920;
+    color: #f47920;
+}

@@ -1,0 +1,32 @@
+QDWDeviceWidget #content {
+    background: #000000;
+}
+
+QDWDeviceWidget #content #titleCtrlbar #titlebar {
+    background: rgba(0, 0, 0, 70%);
+}
+
+QDWDeviceWidget #content #titleCtrlbar #titlebar #labelDevice {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+QDWDeviceWidget #content #titleCtrlbar #titlebar #grpWindow #btnMin {
+    qproperty-icon: url(':/asset/icon-minimize.svg');
+}
+
+QDWDeviceWidget #content #titleCtrlbar #titlebar #grpWindow #btnClose {
+    qproperty-icon: url(':/asset/icon-close.svg');
+}
+
+QDWDeviceWidget #content #titleCtrlbar #titlebar #grpWindow #btnFullScreen {
+    qproperty-icon: url(':/asset/fullscreen.svg');
+}
+
+QDWDeviceWidget #content #titleCtrlbar #titlebar #grpWindow #btnPin {
+    image: url(':/asset/topmost.svg');
+}
+
+QDWDeviceWidget #content #titleCtrlbar #titlebar #grpWindow #btnPin:checked {
+    image: url(':/asset/topmost-checked.svg');
+}

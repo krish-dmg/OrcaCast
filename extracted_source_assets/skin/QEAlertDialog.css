@@ -1,0 +1,53 @@
+QEAlertDialog {
+    background-color: #222222;
+    border: 1px solid #4B5154;
+}
+QEAlertDialog #content #lbAppIcon {
+    image: url(':/asset/intro-logo.png');
+}
+
+QEAlertDialog #content #lbAppName {
+    color: #ffffff;
+    font-weight: bold;
+}
+QEAlertDialog #content #titlebar {
+    border-bottom: 1px solid #4B5154;
+}
+QEAlertDialog #content #titlebar #btnMin {
+    border: none;
+    width: 24px;
+    height: 24px;
+    qproperty-icon: url(':/asset/icon-minimize.svg');
+}
+QEAlertDialog #content #titlebar #btnClose {
+    border: none;
+    width: 24px;
+    height: 24px;
+    qproperty-icon: url(':/asset/icon-close.svg');
+}
+
+QEAlertDialog #content #labelTitle {
+    font-size: 18px;
+}
+
+QEAlertDialog #content #labelTitle,
+QEAlertDialog #content #labelDetail {
+    color: #FFFFFF;
+}
+
+QEAlertDialog #actionBar QToolButton {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6px;
+}
+
+QEAlertDialog #actionBar #btnAccept {
+    background-color: #ff9900;
+    color: #ffffff;
+}
+QEAlertDialog #actionBar #btnAccept:hover {
+    background-color: #faa755;
+}
+QEAlertDialog #actionBar #btnAccept:pressed {
+    background-color: #f47920;
+}
