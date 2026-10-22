@@ -99,10 +99,10 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			LjpkS1FIi16lZ4zB+D0Xc0dJCSg=
+			adkkQKJMbGENtk16pCswNmIj9gI=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"2e3a644b51488b5ea5678cc1f83d177347490928"</string>
+			<string>cdhash H"69d92440a24c6c610db64d7aa42b30366223f602"</string>
 		</dict>
 		<key>MacOS/libavcodec.58.dylib</key>
 		<dict>
