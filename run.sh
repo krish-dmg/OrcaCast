@@ -7,7 +7,22 @@ cd "$DIR"
 # Clean any orphaned processes
 pkill -9 -f "OrcaCast" 2>/dev/null || true
 pkill -9 -f "ZenCast" 2>/dev/null || true
+defaults -currentHost write com.apple.controlcenter AirplayReceiverEnabled -bool false 2>/dev/null || true
+killall ControlCenter 2>/dev/null || true
 sleep 0.5
+
+# Clear quarantine flags if cloned or downloaded from GitHub
+xattr -cr "$DIR/OrcaCast.app" 2>/dev/null || true
+
+# Ensure recordings directory exists
+mkdir -p "$HOME/game recordings"
+
+# Seed default configuration to Application Support if not present
+APP_SUPPORT="$HOME/Library/Application Support/OrcaCast"
+mkdir -p "$APP_SUPPORT"
+if [ ! -f "$APP_SUPPORT/userdefaults.conf" ]; then
+  sed "s|\"~/game recordings\"|\"$HOME/game recordings\"|g" "$DIR/config/userdefaults.conf" > "$APP_SUPPORT/userdefaults.conf" 2>/dev/null || cp "$DIR/config/userdefaults.conf" "$APP_SUPPORT/userdefaults.conf"
+fi
 
 echo "=== Launching OrcaCast ==="
 open -a "$DIR/OrcaCast.app"
